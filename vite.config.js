@@ -1,7 +1,7 @@
-# vite-base-full-url
-set full url in vite, but seems not work in development
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
 
-```javascript
+// https://vitejs.dev/config/
 export default defineConfig({
   base: 'http://localhost:3000/test/',
   plugins: [vue({
@@ -12,9 +12,3 @@ export default defineConfig({
     }
   })]
 })
-
-```
-
-But the vue log `src` is not full url.
-
-![test](./test.png)
