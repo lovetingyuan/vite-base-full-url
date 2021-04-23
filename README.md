@@ -1,5 +1,5 @@
 # vite-base-full-url
-set full url in vite, but seems not work in development
+set full url in vite, but seems not work in development, I need the src is full url including host
 
 ```javascript
 export default defineConfig({
